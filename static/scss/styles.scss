@@ -1,9 +1,4 @@
-html {
-  body {
-    background-color: green;
-  }
-}
-
-body {
-  background-color: blue;
-}
+@import "normalize";
+@import "colors";
+@import "landingpage";
+@import "typography";
