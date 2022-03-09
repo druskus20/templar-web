@@ -19,7 +19,7 @@
     "dev": "run-p serve watch",
     "serve": "node node-server.js",
     "watch:eleventy": "eleventy --watch",
-    "watch:sass": "sass --watch static/scss:.tmp/css",
+    "watch:sass": "sass --no-source-map --watch static/scss:.tmp/css",
     "watch": "npm-run-all watch:sass watch:eleventy",
     "fmt": "prettier --write '{./,./{_includes,_data}/**/}*.{json,md,js,css,scss}'"
   },

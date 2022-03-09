@@ -10,7 +10,7 @@
 #export TARGET_DOMAIN
 #export BRANCH
 
-TARGET_DOMAIN="druskus.com" 
+TARGET_DOMAIN="templar.druskus.com" 
 PUBLIC_URL=${PUBLIC_URL:-"https://${TARGET_DOMAIN}"}
 npx eleventy
 cd .tmp
